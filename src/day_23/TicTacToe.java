@@ -1,6 +1,6 @@
 /*
  * Hacker Rank Day 23 - Java
- * Review, Tick Tack Toe
+ * Review, Tic Tac Toe
  */
 package day_23;
 
