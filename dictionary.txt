@@ -1,0 +1,11 @@
+anteater
+dog
+cat
+badger
+elephant
+foxhound
+goatherd
+houseboat
+index
+jumping
+
