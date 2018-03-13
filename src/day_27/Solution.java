@@ -1,34 +1,17 @@
 /*
  * Hacker Rank Day 27 - Java
- * Challenge
+ * Testing Challenge
  */
 package day_27;
-
-import java.util.Scanner;
 
 public class Solution {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int ret_day = sc.nextInt();
-        int ret_month = sc.nextInt();
-        int ret_year = sc.nextInt();
-        int due_day = sc.nextInt();
-        int due_month = sc.nextInt();
-        int due_year = sc.nextInt();
-
-        int fine = 0;
-        if (ret_year > due_year) {
-            fine = 10000;
-        } else if (ret_year == due_year) {
-            if (ret_month > due_month) {
-                fine = (ret_month - due_month) * 500;
-            } else if (ret_month == due_month) {
-                if (ret_day > due_day) {
-                    fine = (ret_day - due_day) * 15;
-                }
-            }
-        }
-        System.out.println(fine);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class shoulc be named SOLUTION */
+        System.out.println("2");
+        System.out.println("4 3");
+        System.out.println("-1 -3 4 2");
+        System.out.println("5 2");
+        System.out.println("0 -1 2 1 4");
     }
 }
